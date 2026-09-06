@@ -1,4 +1,7 @@
 {
-  "item.tutorialmod.bismuth" : "Bismuth",
-  "item.tutorialmod.gomes" : "Gomes"
+  "creativetab.tutorialmod.sigma" : "Sigma Mod",
+  "item.tutorialmod.sigma" : "Sigma",
+  "item.tutorialmod.betinha" : "Betinha",
+  "block.tutorialmod.sigma_block": "Bloco Sigma",
+  "block.tutorialmod.betinha:block" : "Bloco Betinha"
 }

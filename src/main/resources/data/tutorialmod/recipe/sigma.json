@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 60,
+  "experience": 0.2,
+  "group": "sigma",
+  "ingredient": {
+    "item": "tutorialmod:sigma_block"
+  },
+  "result": {
+    "count": 5,
+    "id": "tutorialmod:sigma"
+  }
+}
