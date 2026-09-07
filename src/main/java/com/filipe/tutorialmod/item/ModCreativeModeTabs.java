@@ -2,6 +2,7 @@ package com.filipe.tutorialmod.item;
 
 import com.filipe.tutorialmod.TutorialMod;
 import com.filipe.tutorialmod.block.ModBlocks;
+import com.filipe.tutorialmod.item.custom.SigmaItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -24,6 +25,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DILDO_GOMES);
                         output.accept(ModBlocks.SIGMA_BLOCK);
                         output.accept(ModBlocks.BETINHA_BLOCK);
+                        output.accept(ModItems.SIGMA_ITEM);
+                        output.accept(ModBlocks.AURA_BLOCK);
                     })
                     .build());
 

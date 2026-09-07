@@ -1,7 +1,9 @@
 package com.filipe.tutorialmod.block;
 
 import com.filipe.tutorialmod.TutorialMod;
+import com.filipe.tutorialmod.block.custom.BlocoAura;
 import com.filipe.tutorialmod.item.ModItems;
+import com.filipe.tutorialmod.sound.ModSounds;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -21,6 +23,9 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> BETINHA_BLOCK = registerBlock("betinha_block",
             () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().strength(1f)));
+
+    public static final DeferredBlock<Block> AURA_BLOCK = registerBlock("aura_block",
+            () -> new BlocoAura(BlockBehaviour.Properties.of().sound(ModSounds.AURA_BLOCK_SOUNDS).strength(1f)));
 
 
 

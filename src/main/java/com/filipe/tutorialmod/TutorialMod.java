@@ -3,6 +3,7 @@ package com.filipe.tutorialmod;
 import com.filipe.tutorialmod.block.ModBlocks;
 import com.filipe.tutorialmod.item.ModCreativeModeTabs;
 import com.filipe.tutorialmod.item.ModItems;
+import com.filipe.tutorialmod.sound.ModSounds;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -36,6 +37,8 @@ public class TutorialMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 

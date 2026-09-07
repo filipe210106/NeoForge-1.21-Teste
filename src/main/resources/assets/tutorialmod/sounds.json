@@ -1,0 +1,44 @@
+{
+  "som_aura": {
+    "subtitle": "sounds.tutorialmod.som_aura",
+    "sounds": [
+      "tutorialmod:som_aura"
+    ]
+  },
+
+  "aura_block_step": {
+    "subtitle": "sounds.tutorialmod.aura_block_step",
+    "sounds": [
+      "tutorialmod:aura_block_step"
+    ]
+  },
+
+  "aura_block_break": {
+    "subtitle": "sounds.tutorialmod.aura_block_break",
+    "sounds": [
+      "tutorialmod:aura_block_break"
+    ]
+  },
+
+  "aura_block_hit": {
+    "subtitle": "sounds.tutorialmod.aura_block_hit",
+    "sounds": [
+      "tutorialmod:aura_block_hit"
+    ]
+  },
+
+  "aura_block_fall": {
+    "subtitle": "sounds.tutorialmod.aura_block_fall",
+    "sounds": [
+      "tutorialmod:aura_block_fall"
+    ]
+  },
+
+  "aura_block_place": {
+    "subtitle": "sounds.tutorialmod.aura_block_place",
+    "sounds": [
+      "tutorialmod:aura_block_place"
+    ]
+  }
+}
+
