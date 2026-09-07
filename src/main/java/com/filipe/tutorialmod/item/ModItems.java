@@ -15,9 +15,10 @@ public class ModItems {
     public static final DeferredItem<Item> BETINHA = ITEMS.register("betinha",
             ()-> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> DILDO_GOMES = ITEMS.register("dildodogomes",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
-
 }

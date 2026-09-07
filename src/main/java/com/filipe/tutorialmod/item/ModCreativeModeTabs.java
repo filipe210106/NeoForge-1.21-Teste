@@ -21,10 +21,9 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SIGMA);
                         output.accept(ModItems.BETINHA);
+                        output.accept(ModItems.DILDO_GOMES);
                         output.accept(ModBlocks.SIGMA_BLOCK);
                         output.accept(ModBlocks.BETINHA_BLOCK);
-
-
                     })
                     .build());
 
