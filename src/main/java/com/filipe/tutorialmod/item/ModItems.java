@@ -18,6 +18,12 @@ public class ModItems {
     public static final DeferredItem<Item> DILDO_GOMES = ITEMS.register("dildodogomes",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> BORRACHA_ROSINHA_RAW = ITEMS.register("borracharosinharaw",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> BORRACH_ROSINHA_COOKED = ITEMS.register("borracharosinhanonraw",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

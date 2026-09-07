@@ -3,7 +3,10 @@
   "item.tutorialmod.sigma" : "Sigma",
   "item.tutorialmod.betinha" : "Betinha",
   "item.tutorialmod.dildodogomes" : "Dildo Do Gomes",
+  "item.tutorialmod.borracharosinharaw" : "Borracha Rosinha Por Aquecer",
+  "item.tutorialmod.borracharosinhanonraw" : "Borracha Rosinha Aquecida",
   "block.tutorialmod.sigma_block": "Bloco Sigma",
   "block.tutorialmod.betinha:block" : "Bloco Betinha",
-  "block.tutorialmod.borracha_rosa_block" : "Borracha Rosinha"
+  "block.tutorialmod.borracha_rosa_block" : "Borracha Rosinha",
+  "block.tutorialmod.borracha_rosa_raw_block" : "Borracha Rosinha Por Aquecer Bloco"
 }

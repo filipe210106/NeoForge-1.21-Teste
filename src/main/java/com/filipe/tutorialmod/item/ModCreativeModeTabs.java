@@ -22,9 +22,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SIGMA);
                         output.accept(ModItems.BETINHA);
                         output.accept(ModItems.DILDO_GOMES);
+                        output.accept(ModItems.BORRACHA_ROSINHA_RAW);
+                        output.accept(ModItems.BORRACH_ROSINHA_COOKED);
                         output.accept(ModBlocks.SIGMA_BLOCK);
                         output.accept(ModBlocks.BETINHA_BLOCK);
                         output.accept(ModBlocks.BORRACHA_ROSA_BLOCK);
+                        output.accept(ModBlocks.BORRACHA_ROSA_RAW_BLOCK);
                     })
                     .build());
 
