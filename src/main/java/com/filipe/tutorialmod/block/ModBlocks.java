@@ -5,6 +5,7 @@ import com.filipe.tutorialmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -22,13 +23,8 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BETINHA_BLOCK = registerBlock("betinha_block",
             () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().strength(1f)));
 
-
-
-
-
-
-
-
+    public static final DeferredBlock<Block> BORRACHA_ROSA_BLOCK = registerBlock("borracha_rosa_block",
+            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.AMETHYST).strength(1f)));
 
 
     //Blocos adicionados

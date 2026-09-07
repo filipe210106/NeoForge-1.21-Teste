@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DILDO_GOMES);
                         output.accept(ModBlocks.SIGMA_BLOCK);
                         output.accept(ModBlocks.BETINHA_BLOCK);
+                        output.accept(ModBlocks.BORRACHA_ROSA_BLOCK);
                     })
                     .build());
 
