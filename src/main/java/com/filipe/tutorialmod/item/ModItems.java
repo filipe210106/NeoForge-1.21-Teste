@@ -2,6 +2,7 @@ package com.filipe.tutorialmod.item;
 
 import com.filipe.tutorialmod.TutorialMod;
 import com.filipe.tutorialmod.entity.ModEntities;
+import com.filipe.tutorialmod.item.custom.AuraItem;
 import com.filipe.tutorialmod.item.custom.SigmaItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -19,7 +20,7 @@ public class ModItems {
             ()-> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> DILDO_GOMES = ITEMS.register("dildodogomes",
-            () -> new Item(new Item.Properties()));
+            () -> new AuraItem(new Item.Properties()));
 
     public static final DeferredItem<Item> SIGMA_ITEM = ITEMS.register("sigma_item",
             ()-> new SigmaItem(new Item.Properties()));
