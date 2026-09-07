@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tutorialmod:betinha_block",
-    "tutorialmod:sigma_block",
     "tutorialmod:borracha_rosa_block",
     "tutorialmod:borracha_rosa_raw_block"
   ]
