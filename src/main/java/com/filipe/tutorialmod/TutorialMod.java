@@ -4,6 +4,8 @@ import com.filipe.tutorialmod.block.ModBlocks;
 import com.filipe.tutorialmod.item.ModCreativeModeTabs;
 import com.filipe.tutorialmod.item.ModItems;
 import com.filipe.tutorialmod.sound.ModSounds;
+import net.minecraft.client.renderer.entity.EntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

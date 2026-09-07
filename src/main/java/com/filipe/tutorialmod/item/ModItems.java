@@ -1,9 +1,11 @@
 package com.filipe.tutorialmod.item;
 
 import com.filipe.tutorialmod.TutorialMod;
+import com.filipe.tutorialmod.entity.ModEntities;
 import com.filipe.tutorialmod.item.custom.SigmaItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -27,6 +29,7 @@ public class ModItems {
 
     public static final DeferredItem<Item> BORRACH_ROSINHA_COOKED = ITEMS.register("borracharosinhanonraw",
             () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
