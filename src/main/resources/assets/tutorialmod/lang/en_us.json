@@ -11,5 +11,7 @@
   "block.tutorialmod.borracha_rosa_raw_block" : "Borracha Rosinha Por Aquecer Bloco",
   "block.tutorialmod.betinha_block" : "Bloco Betinha",
   "item.tutorialmod.sigma_item" : "Transformador Sigma",
-  "block.tutorialmod.aura_block" : "Bloco da Aura"
+  "block.tutorialmod.aura_block" : "Bloco da Aura",
+  "effect.tutorialmod.gordo_effect": "Gordo",
+  "item.tutorialmod.bigmac": "BigMac"
 }

@@ -1,6 +1,7 @@
 package com.filipe.tutorialmod;
 
 import com.filipe.tutorialmod.block.ModBlocks;
+import com.filipe.tutorialmod.effect.ModEffects;
 import com.filipe.tutorialmod.item.ModCreativeModeTabs;
 import com.filipe.tutorialmod.item.ModItems;
 import com.filipe.tutorialmod.sound.ModSounds;
@@ -41,6 +42,8 @@ public class TutorialMod {
         ModBlocks.register(modEventBus);
 
         ModSounds.register(modEventBus);
+
+        ModEffects.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 

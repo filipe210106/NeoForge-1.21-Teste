@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.AURA_BLOCK);
                         output.accept(ModBlocks.BORRACHA_ROSA_BLOCK);
                         output.accept(ModBlocks.BORRACHA_ROSA_RAW_BLOCK);
+                        output.accept(ModItems.BIGMAC);
                     })
                     .build());
 

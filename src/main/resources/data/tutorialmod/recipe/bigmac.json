@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:steak"
+    },
+    "C": {
+      "item": "minecraft:bread"
+    }
+  },
+  "pattern": [
+    "C",
+    "B",
+    "C"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:bigmac"
+  }
+}

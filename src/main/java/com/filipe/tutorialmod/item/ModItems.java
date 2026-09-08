@@ -1,8 +1,8 @@
 package com.filipe.tutorialmod.item;
 
 import com.filipe.tutorialmod.TutorialMod;
-import com.filipe.tutorialmod.entity.ModEntities;
 import com.filipe.tutorialmod.item.custom.AuraItem;
+import com.filipe.tutorialmod.item.custom.ModFoodProperties;
 import com.filipe.tutorialmod.item.custom.SigmaItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -30,6 +30,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> BORRACH_ROSINHA_COOKED = ITEMS.register("borracharosinhanonraw",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BIGMAC = ITEMS.register("bigmac",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BIGMAC)));
 
 
     public static void register(IEventBus eventBus) {
